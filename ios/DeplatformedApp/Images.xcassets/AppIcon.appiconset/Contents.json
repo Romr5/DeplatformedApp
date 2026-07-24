@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "deplatformed_icon_1024.png",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "expo"
+  }
+}

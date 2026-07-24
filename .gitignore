@@ -1,0 +1,67 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Security & Credentials
+*.keystore
+debug.keystore
+*.jks
+*.key
+*.pem
+*.p8
+*.p12
+*.pfx
+*.cert
+*.cer
+*.crt
+*.der
+*.mobileprovision
+*.gpg
+*.asc
+.env
+.env*
+.env*.local
+
+# Standalone build binaries & packages (>100MB / local artifacts)
+*.apk
+*.aab
+*.ipa
+Deplatformed.apk
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build outputs and temporary caches
+build/
+.gradle/
+local.properties
+android/local.properties
+android/app/build/
+android/.gradle/
+ios/Pods/
+ios/build/
+
+# Metro
+.metro-health-check*
+
+# debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# macOS
+.DS_Store
+
+# typescript
+*.tsbuildinfo
